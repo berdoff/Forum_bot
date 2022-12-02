@@ -8,6 +8,7 @@ import time
 from pymongo import MongoClient
 import certifi
 import datetime
+from config import mongo
 
 
 cluster=MongoClient("mongodb+srv://berdoff:anna280980@cluster0.kd286.mongodb.net/UsersData?retryWrites=true&w=majority",tlsCAFile=certifi.where())
